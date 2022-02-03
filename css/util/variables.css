@@ -1,0 +1,52 @@
+
+:root{
+--primary-color: hsl(189, 96%, 37%);
+--secondary-color: hsl(152, 93%, 40%);
+--tertiary-color: hsl(273, 100%, 50%);
+--error-color: hsl(5, 100%, 50%);
+--warning-color: hsl(46, 100%, 50%);
+--info-color: hsl(175, 96%, 30%);
+--success-color: hsl(165, 97%, 25%);
+--light-color: hsl(0, 0%, 98%);
+--dark-color: hsl(180, 9%, 13%);
+--grey-color: hsl(276, 3%, 32%);
+ --bx-sh-1:0px 0px .5rem hsla(0, 0%, 0%, 0.1);   /* box-shadow */
+ --bx-sh-2:0px 0px .7rem hsla(0, 0%, 0%, 0.2);   /* box-shadow */
+ --bx-sh-3:0px 0px .9rem hsla(0, 0%, 0%, 0.3);   /* box-shadow */
+ --bx-sh-dark-1:0px 0px .5rem hsla(180, 0%, 0%, 0.1);   /* box-shadow */
+ --bx-sh-dark-2:0px 0px .7rem hsla(180, 0%, 0%, 0.2);   /* box-shadow */
+ --bx-sh-dark-3:0px 0px .9rem hsla(180, 0%, 0%, 0.3);   /* box-shadow */
+ --bx-sh-primary-1:0px 0px .5rem hsla(187, 100%, 50%, 0.1);   /* box-shadow */
+ --bx-sh-primary-2:0px 0px .7rem hsl(187, 100%, 50%,0.2);   /* box-shadow */
+ --bx-sh-primary-3:0px 0px .9rem hsl(187, 100%, 50%,0.3);   /* box-shadow */
+ --bx-sh-secondary-1:0px 0px .5rem hsl(152, 93%, 40%,.1);   /* box-shadow */
+ --bx-sh-secondary-2:0px 0px .7rem hsl(152, 93%, 40%,.2);   /* box-shadow */
+ --bx-sh-secondary-3:0px 0px .9rem hsl(152, 93%, 40%,.3);   /* box-shadow */
+ --bx-sh-tertiary-1:0px 0px .5rem hsl(273, 100%, 50%,.1);   /* box-shadow */
+ --bx-sh-tertiary-2:0px 0px .7rem hsl(273, 100%, 50%,.2);   /* box-shadow */
+ --bx-sh-tertiary-3:0px 0px .9rem hsl(273, 100%, 50%,.3);   /* box-shadow */
+ --bx-sh-error-1:0px 0px .5rem hsl(5, 100%, 50%,.1);   /* box-shadow */
+ --bx-sh-error-2:0px 0px .7rem hsl(5, 100%, 50%,.2);   /* box-shadow */
+ --bx-sh-error-3:0px 0px .9rem hsl(5, 100%, 50%,.3);   /* box-shadow */
+ --bx-sh-warning-1:0px 0px .5rem hsl(46, 100%, 50%,.1);   /* box-shadow */
+ --bx-sh-warning-2:0px 0px .7rem hsl(46, 100%, 50%,.2);   /* box-shadow */
+ --bx-sh-warning-3:0px 0px .9rem hsl(46, 100%, 50%,.3);   /* box-shadow */
+ --bx-sh-success-1:0px 0px .5rem hsl(197, 100%, 50%,.1);   /* box-shadow */
+ --bx-sh-success-2:0px 0px .7rem hsl(197, 100%, 50%,.2);   /* box-shadow */
+ --bx-sh-success-3:0px 0px .9rem hsl(197, 100%, 50%,.3);   /* box-shadow */
+ --bx-sh-info-1:0px 0px .5rem hsl(59, 100%, 50%,.1);   /* box-shadow */
+ --bx-sh-info-2:0px 0px .7rem hsl(59, 100%, 50%,.2);   /* box-shadow */
+ --bx-sh-info-3:0px 0px .9rem hsl(59, 100%, 50%,.3);   /* box-shadow */
+ --bx-sh-light-1:0px 0px .5rem hsl(0, 100%, 50%,.1);   /* box-shadow */
+ --bx-sh-light-2:0px 0px .7rem hsl(0, 100%, 50%,.2);   /* box-shadow */
+ --bx-sh-light-3:0px 0px .9rem hsl(0, 100%, 50%,.3);   /* box-shadow */ 
+ --bx-sh-grey-1:0px 0px .5rem hsl(297, 100%, 50%,.1);   /* box-shadow */
+ --bx-sh-grey-2:0px 0px .7rem hsl(297, 100%, 50%,.2);   /* box-shadow */
+ --bx-sh-grey-3:0px 0px .9rem hsl(297, 100%, 50%,.3);   /* box-shadow */ 
+
+ --font-size:1rem;
+ --pd:.5rem;
+ --m:.5rem;
+ --br-thickness:1px;
+ --br-radius:.5rem;
+}
