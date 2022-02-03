@@ -1,0 +1,91 @@
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    background-color: #e2e2e2;
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: var(--light-color);
+}
+.btn-tertiary {
+    background-color: var(--tertiary-color);
+    color: var(--light-color);
+}
+.btn-error {
+    background-color: var(--error-color);
+    color: var(--light-color);
+}
+.btn-warning {
+    background-color: var(--warning-color);
+    color: var(--light-color);
+}
+.btn-info {
+    background-color: var(--info-color);
+    color: var(--light-color);
+}
+.btn-success {
+    background-color: var(--success-color);
+    color: var(--light-color);
+}
+.btn-light {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+.btn-dark {
+    background-color: var(--dark-color);
+    color: var(--light-color);
+}
+.btn-grey {
+    background-color: var(--grey-color);
+    color: var(--light-color);
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+.btn-outline-secondary {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+}
+.btn-outline-tertiary {
+    border-color: var(--tertiary-color);
+    color: var(--tertiary-color);
+}
+.btn-outline-error {
+    border-color: var(--error-color);
+    color: var(--error-color);
+}
+.btn-outline-warning {
+    border-color: var(--warning-color);
+    color: var(--warning-color);
+}
+.btn-outline-info {
+    border-color: var(--info-color);
+    color: var(--info-color);
+}
+.btn-outline-success {
+    border-color: var(--success-color);
+    color: var(--success-color);
+}
+.btn-outline-light {
+    border-color: var(--light-color);
+    color: var(--light-color);
+}
+.btn-outline-dark {
+    border-color: var(--dark-color);
+    color: var(--dark-color);
+}
+.btn-outline-grey {
+    border-color: var(--grey-color);
+    color: var(--grey-color);
+}
