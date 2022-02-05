@@ -8,8 +8,13 @@
     width:fit-content;
     font-size:calc(var(--font-size));
     border-bottom: 3px solid var(--light-color);
-   
+   cursor: pointer;
+   transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
+}
+.alert:hover{
+    box-shadow:var(--bx-sh-5);
+    transform: scale(1.02);
 }
 .alert-success,.alert-error,.alert-info,.alert-warning
 {
