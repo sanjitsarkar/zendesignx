@@ -1,0 +1,38 @@
+.toast-container{
+/* display:none; */
+position: fixed;
+top: 10%;
+left:40%; 
+transform: translateX(-50%);
+padding:calc(var(--pd)*1.2) calc(var(--pd)*2);
+border-radius:calc(var(--br-radius)*.5);
+box-shadow:var(--bx-sh-3);
+background: var(--primary-color);
+color:var(--light-color);
+z-index: 9999;
+width:fit-content;
+font-size:calc(var(--font-size));
+border-bottom: 3px solid var(--light-color);
+cursor: pointer;
+opacity: .5;
+filter:blur(10px);
+transform: scale(0);
+
+transition: all .2s ease-in-out;
+}
+
+.toast-open{
+    transform: scale(1);
+    filter:blur(0px);
+
+    opacity: 1;
+    display:block;
+
+}
+
+.toast-hide{
+
+display:none;
+
+}
+
