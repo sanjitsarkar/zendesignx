@@ -1,0 +1,27 @@
+ul .list-items{
+    list-style: none;
+    display:inline-block;
+
+}
+
+li .list-item{
+padding: 0.6em .7em;
+
+}
+
+.list-item:hover{
+  opacity: .7;  
+}
+
+
+.list-item-active{
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
+.list-show-more{
+    display: none;
+}
+
+
+
+

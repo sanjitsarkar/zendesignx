@@ -110,3 +110,27 @@ transition: all 0.1s ease-in-out;
     border-color: var(--grey-color);
     color: var(--grey-color);
 }
+.btn-round,.btn-round-lg,.btn-round-sm,.btn-round-md {
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+   
+}
+.btn-round{
+   
+    width:3rem;
+    height:3rem;
+}
+.btn-round-lg{
+    width:4rem;
+    height:4rem;
+}
+.btn-round-sm{
+    font-size: smaller;
+    width:2rem;
+    height:2rem;
+}
+.btn-round-md{
+    width:3rem;
+    height:3rem;
+}

@@ -48,6 +48,10 @@
     <!-- <img src="https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture.jpg" alt="" class="avatar"> -->
     <img src="https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture.jpg" alt="" class="avatar avatar-lg">
     <img src="https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture.jpg" alt="" class="avatar avatar-xl ">
+    <div class="avatar-badge-container">
+    <img src="https://bestprofilepictures.com/wp-content/uploads/2021/04/Cool-Profile-Picture.jpg" alt="" class="avatar avatar-xl ">
+    <span class="avatar-badge badge-primary">15</span>
+  </div>
   </section>
   <section class="button-section row flex-gap-1 mt-1 align-center m-auto">
     <button class="btn btn-disabled">Disabled</button>
@@ -70,9 +74,50 @@
     <button class="btn btn-outline-info">Info Outlined</button>
     <button class="btn btn-outline-dark">Dark Outlined</button>
     <button class="btn btn-outline-grey">Grey Outlined</button>
+    <button class="btn btn-round btn-primary">
+      <i class="fa fa-shopping-cart"></i>
+    </button>
+    <button class="btn btn-round-md btn-secondary">
+      <i class="fa fa-user"></i>
+      <span class="badge badge-error">12</span>
+
+    </button>
 
 
 
   </section>
+  <section class="input-section row flex-gap-1 mt-1 align-center m-auto">
+<form>
+  <input type="text" placeholder="Enter your name" class="">
+  <input type="text" placeholder="Enter your name" class="input-success">
+  <input type="text" placeholder="Enter your name" class="input-warning">
+  <input type="text" placeholder="Enter your name" class="input-error">
+</form>
+  </section>
+  <section class="image-section row flex-gap-1 mt-1 align-center m-auto">
+   <img src="https://images.unsplash.com/photo-1644325781022-3e1177d11bfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img">
+   <img src="https://images.unsplash.com/photo-1644351032803-9c6f42458ea7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img img-rounded">
+   <img src="https://images.unsplash.com/photo-1644365240979-da902297897f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img img-responsive br-lg">
+  </section>
+
+  <section class="image-section row flex-gap-1 mt-1 align-center m-auto">
+    <div class="silder-contaier">
+      <input type="range" min="1" max="100" value="0" class="slider w-full" id="slider">
+      <div id="slider-value" class="slider-value"></div>
+    </div>
+</section>
+
+<section class="modal-section">
+<button id="open-modal" class="btn btn-primary">Open Modal</button>
+
+<div id="modal" class="modal">
+
+  <div class="modal-content w-full">
+    <span class="close" id="close">&times;</span>
+    <p>Write your modal content here</p>
+  </div>
+
+</div>
+</section>
 </body>
 </html>

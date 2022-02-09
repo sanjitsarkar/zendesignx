@@ -1,5 +1,7 @@
 
-
+.w-full{
+  width:100vw;
+}
     .row {
     display: flex;
     flex-flow: row wrap;
@@ -449,4 +451,7 @@
       flex-grow: 0;
       width: 100%;
     }
+
+   
   }
+  

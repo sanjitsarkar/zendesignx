@@ -1,0 +1,24 @@
+img,.img{
+object-fit: cover;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+height: 100%;
+width:12rem;
+height:12rem;
+}
+.img-rounded{
+
+border-radius:50%;
+}
+
+.img-responsive{
+    
+}
+.img:hover {
+	box-shadow: var(--bx-sh-3);
+}
+
+.img-responsive {
+	max-width: 50vw;
+}

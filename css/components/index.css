@@ -5,3 +5,8 @@
 @import url('./card/index.css');
 @import url('./image/index.css');
 @import url('./input/index.css');
+@import url('./modal/index.css');
+@import url('./rating/index.css');
+@import url('./list/index.css');
+@import url('./slider/index.css');
+@import url('./toast/index.css');

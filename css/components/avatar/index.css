@@ -69,3 +69,28 @@
 	height: 3rem;
 
 }
+.avatar-badge-container{
+position: relative;
+transform:scale(1);
+    
+    transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    box-shadow: var(--bx-sh-3);
+}
+.avatar-badge{
+   right: 0%;
+    top:0%;
+position: absolute;
+border-radius: 50%;
+min-width:2rem; 
+padding:0.25rem;
+display: grid;
+place-items: center;
+ min-height:2rem;
+ font-size:small;
+ background-color: var(--primary-color);
+ color: var(--light-color);
+}
+.avatar-badge-container:hover{
+   cursor: pointer;
+   transform: scale(1.1);
+}
