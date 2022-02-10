@@ -3,16 +3,22 @@
   flex-direction: column;
 
   /* flex-direction: column; */
-  flex-wrap: wrap;
-  width:max-content;
+  /* flex-wrap: wrap; */
+  width:fit-content;
   justify-content: flex-start;
+  cursor: pointer;
   /* gap:1; */
   /* align-items: center; */
 background-color: var(--light-color);
     padding: 0.5rem;
     /* box-shadow: 0px 0px 0.5rem rgba(0, 0, 0, 0.2); */
-    box-shadow: var(--bx-sh-3);
-    border-radius: 0.125rem;
+    box-shadow: var(--bx-sh-2);
+    border-radius: var(--br-radius);
+  }
+  .card:hover
+  {
+    box-shadow: var(--bx-sh-1);
+
   }
     .card-header {
         padding: 0.5rem;
@@ -22,13 +28,22 @@ background-color: var(--light-color);
         padding: 0.5rem;
         border-radius: 0 0 0.125rem 0.125rem;
     }
-   
+   .card-title{
 
-  .card .card-title {
+   }
+.card-description
+{
+  display: -webkit-box;
+  max-width: 100%;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+  /* .card .card-title {
     font-size: 1rem;
-    /* padding-bottom: 0.5rem; */
+    padding-bottom: 0.5rem;
     font-weight: bold;
-  }
+  } */
   .card .card-body {
     font-size: 1rem;
   }
