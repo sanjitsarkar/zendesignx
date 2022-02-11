@@ -8,30 +8,43 @@
     <script src="js/index.js" defer></script>
     <title>XenDesign</title>
 </head>
-<body class="m-4 bg-dark">
-  <section class="alert-section row flex-gap-1 mt-1 align-center m-auto">
+
+<body class="m-4 bg-light col flex-gap-1">
+  <section class="alert-section row flex-gap-1 mt-1 align-center ">
       <div class="alert">
    
           
-        lorem ipsum dolor sit amet</div>
+        lorem ipsum dolor sit amet
+      <span class="alert-close" onclick="closeAlert(this)">&times;</span>
+      </div>
       <div class="alert alert-warning">
         <svg></svg>    
-        lorem ipsum dolor sit amet</div>
+        lorem ipsum dolor sit amet
+        <span class="alert-close" onclick="closeAlert(this)">&times;</span>
+      </div>
       <div class="alert alert-success">
         <svg></svg>    
    
-        lorem ipsum dolor sit amet</div>
+        lorem ipsum dolor sit amet
+        <span class="alert-close" onclick="closeAlert(this)">&times;</span>
+      </div>
       <div class="alert alert-error">
         <svg></svg>    
           
-        lorem ipsum dolor sit amet</div>
+        lorem ipsum dolor sit amet
+      <span class="alert-close" onclick="closeAlert(this)">&times;</span>
+
+      </div>
       <div class="alert alert-info">
         <svg></svg>    
           
-        lorem ipsum dolor sit amet</div>
+        lorem ipsum dolor sit amet
+        <span class="alert-close" onclick="closeAlert(this)">&times;</span>
+      
+      </div>
   </section>
 
-  <section class="avatar-section image-section row flex-gap-1 mt-1 align-center m-auto">
+  <section class="avatar-section image-section row flex-gap-1 mt-1 align-center ">
     <!-- <div class="avatar-container">
       <div class="avatar-image">
         <img src="img/avatar.png" alt="avatar">
@@ -53,7 +66,7 @@
     <span class="avatar-badge badge-primary">15</span>
   </div>
   </section>
-  <section class="button-section row flex-gap-1 mt-1 align-center m-auto">
+  <section class="button-section row flex-gap-1 mt-1 align-center ">
     <button class="btn btn-disabled">Disabled</button>
     <button class="btn btn-primary">Primary</button>
     <button class="btn btn-secondary">Secondary</button>
@@ -86,39 +99,133 @@
 
 
   </section>
-  <section class="input-section row flex-gap-1 mt-1 align-center m-auto">
-<form>
+  <section class="input-section row flex-gap-1 mt-1 align-center ">
   <input type="text" placeholder="Enter your name" class="">
+  <input type="text" placeholder="Enter your name" class="input-dark">
   <input type="text" placeholder="Enter your name" class="input-success">
   <input type="text" placeholder="Enter your name" class="input-warning">
   <input type="text" placeholder="Enter your name" class="input-error">
-</form>
   </section>
-  <section class="image-section row flex-gap-1 mt-1 align-center m-auto">
-   <img src="https://images.unsplash.com/photo-1644325781022-3e1177d11bfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img">
-   <img src="https://images.unsplash.com/photo-1644351032803-9c6f42458ea7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img img-rounded">
-   <img src="https://images.unsplash.com/photo-1644365240979-da902297897f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img img-responsive br-lg">
+  <section class="image-section row flex-gap-1 mt-1 align-center ">
+   <img src="https://images.unsplash.com/photo-1644325781022-3e1177d11bfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img w-72 h-72">
+   <img src="https://images.unsplash.com/photo-1644351032803-9c6f42458ea7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img img-rounded w-72 h-72">
+   <img src="https://images.unsplash.com/photo-1644365240979-da902297897f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img img-responsive br-lg w-72 h-72">
   </section>
 
-  <section class="image-section row flex-gap-1 mt-1 align-center m-auto">
+  <section class="image-section row flex-gap-1 mt-1 align-center ">
     <div class="silder-contaier">
       <input type="range" min="1" max="100" value="0" class="slider w-96" id="slider">
       <div id="slider-value" class="slider-value"></div>
     </div>
 </section>
-<section class="section-card">
-    <div class="card w-80  card-horizontal">
+<section class="section-card row flex-gap-1 mt-1 align-center">
+    <div class="card w-80 h-96">
     <div class="card-header">
-        <img src="https://images.unsplash.com/photo-1644325781022-3e1177d11bfe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyN3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60" alt="" srcset="" class="img">
+        <button>
+          Trending
+        </button>
+        <img src="https://s.yimg.com/os/creatr-uploaded-images/2021-09/de2e6bc0-1a9b-11ec-bef7-5c6aa1cb549c" alt="" srcset="" class="h-40 w-full">
 
     </div>
+    <div class="card-bottom">
+
     <div class="card-body">
-        <div class="card-title">Landscape Painting</div>
-<p>
+        <div class="card-title">Iphone 13S</div>
+<p class="card-description">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aut tenetur. Obcaecati unde ipsum nihil sapiente quos! Doloribus, officia dignissimos!
 </p>
     </div>
-   
+   <div class="card-footer">
+     <div class="row items-center flex-gap-05">
+       <h4 class="o-70 text-600">Price</h4>
+       <h4 class="text-md text-md-bold">₹10200000</h4>
+     </div>
+     <div class="row flex-gap-1">
+       <button class="btn btn-round-md btn-dark">
+      <i class="fa fa-shopping-cart"></i>
+         
+       </button>
+       <button class=" btn-round-md bg-pink">
+      <i class="fa fa-heart"></i>
+         
+       </button>
+       <button class="btn btn-round-md btn-secondary">
+      <i class="fa fa-share"></i>
+         
+       </button>
+     </div>
+    </div>
+   </div>
+    </div>
+    <div class="card w-80 h-96">
+    <div class="card-header">
+       
+        <img src="https://images.samsung.com/uk/smartphones/galaxy-s20/images/kv/galaxy-s20_highlights_kv_00.jpg" alt="" srcset="" class="h-40 w-full">
+
+    </div>
+    <div class="card-bottom">
+    <div class="card-body">
+        <div class="card-title">Samsung X3S</div>
+<p class="card-description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aut tenetur. Obcaecati unde ipsum nihil sapiente quos! Doloribus, officia dignissimos!
+</p>
+    </div>
+   <div class="card-footer">
+     <div class="row items-center flex-gap-05">
+       <h4 class="o-70 text-600">Price</h4>
+       <h4 class="text-md text-md-bold">₹1000200000</h4>
+     </div>
+     <div class="row flex-gap-1">
+       <button class="btn btn-round-md btn-dark">
+      <i class="fa fa-shopping-cart"></i>
+         
+       </button>
+       <button class=" btn-round-md bg-pink">
+      <i class="fa fa-heart"></i>
+         
+       </button>
+       <button class="btn btn-round-md btn-secondary">
+      <i class="fa fa-share"></i>
+         
+       </button>
+     </div>
+   </div>
+  </div>
+    </div>
+    <div class="card w-80 h-96">
+    <div class="card-header">
+       
+        <img src="https://oasis.opstatics.com/content/dam/oasis/page/2021/operation/1227/store/pc/01-Featured-2.jpg" alt="" srcset="" class="h-40 w-full">
+
+    </div>
+    <div class="card-bottom">
+    <div class="card-body">
+        <div class="card-title">One Plus 10</div>
+<p class="card-description">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aut tenetur. Obcaecati unde ipsum nihil sapiente quos! Doloribus, officia dignissimos!
+</p>
+    </div>
+   <div class="card-footer">
+     <div class="row items-center flex-gap-05">
+       <h4 class="o-70 text-600">Price</h4>
+       <h4 class="text-md text-md-bold">₹1000200000</h4>
+     </div>
+     <div class="row flex-gap-1">
+       <button class="btn btn-round-md btn-dark">
+      <i class="fa fa-shopping-cart"></i>
+         
+       </button>
+       <button class=" btn-round-md bg-pink">
+      <i class="fa fa-heart"></i>
+         
+       </button>
+       <button class="btn btn-round-md btn-secondary">
+      <i class="fa fa-share"></i>
+         
+       </button>
+     </div>
+   </div>
+  </div>
     </div>
 </section>
 <section class="modal-section">
@@ -126,7 +233,7 @@
 
 <div id="modal" class="modal">
 
-  <div class="modal-content w-8">
+  <div class="modal-content">
     <span class="close" id="close">&times;</span>
     <p>Write your modal content here</p>
   </div>

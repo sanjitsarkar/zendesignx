@@ -1,26 +1,61 @@
 
 
-.font-sm {
+.text-sm {
     font-size: 0.75rem;
   }
   
-  .font-md {
+  .text-md {
     font-size: 1rem;
   }
   
-  .font-lg {
+  .text-lg {
     font-size: 1.5rem;
   }
   
-  .font-xl {
+  .text-xl {
     font-size: 2rem;
   }
   
-  .font-xxl {
+  .text-xxl {
     font-size: 3rem;
   }
   
   .center {
     display: grid;
     place-items: center;
+  }
+
+  .text-center{
+    text-align: center;
+  }
+
+  .text-left {
+    text-align: left;
+
+  }
+
+  .text-right{
+    text-align: right;
+  }
+  .text-justify{
+    text-align: justify;
+  }
+
+  .text-md-bold{
+    font-weight: 400;
+  }
+  .text-100{
+    font-weight: 100;
+  }
+  .text-200{
+    font-weight: 200;
+  }
+  .text-400{
+    font-weight: 400;
+  }
+  .text-500{
+    font-weight: 500;
+  }
+  .text-bold{
+    font-weight: bold;
   }

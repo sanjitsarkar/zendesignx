@@ -6,7 +6,7 @@ left:40%;
 transform: translateX(-50%);
 padding:calc(var(--pd)*1.2) calc(var(--pd)*2);
 border-radius:calc(var(--br-radius)*.5);
-box-shadow:var(--bx-sh-3);
+box-shadow:0 0 2rem rgba(0, 0, 0, 0.281);
 background: var(--primary-color);
 color:var(--light-color);
 z-index: 9999;

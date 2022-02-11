@@ -1,7 +1,7 @@
 .rating{
-  color:rgb(255, 255, 255);  
+  color:rgb(128, 128, 128);  
 }
 
 .rating-active{
-    color:yellow;
+    color:var(--warning-color);
 }

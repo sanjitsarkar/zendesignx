@@ -17,7 +17,7 @@
     transition: opacity .2s;
   }
   .slider-value{
-color:var(--light-color);
+color:var(--dark-color);
   }
   .slider:hover {
     opacity: 1;
