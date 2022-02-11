@@ -1,26 +1,16 @@
-button, input[type=submit] {
-    cursor: pointer;
-    outline: none;
-    border: none;
-    padding: 0.5rem 0.6rem;
-    border-radius: 0.5rem;
-    background-color: #119195;
-    color: rgb(255, 255, 255);
-  }
 
-  /* width */
 ::-webkit-scrollbar {
-  width: 20px;
+  width: .7rem;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
+  box-shadow: inset 0 0 1rem rgba(26, 34, 34, 0.623);
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
-  background: red;
-  border-radius: 10px;
+  background: var(--primary-color);
+  border-radius: .3rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary-color);
 }

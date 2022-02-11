@@ -1,14 +1,23 @@
+button, input[type=submit] {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 0.5rem 0.6rem;
+    border-radius: 0.3rem;
+    background-color: #119195;
+    color: rgb(255, 255, 255);
+  }
+
 .btn {
     text-decoration: none;
     cursor: pointer;
     display: inline-block;
     border: 0;
-    padding: 0.5em 1em;
-    border-radius: 0.2rem;
+
     background-color: transparent;
 box-shadow: var(--bx-sh-1);
 transform: scale(1);
-font-size: var(--font-size);
+font-size: .9rem;
 transition: all 0.1s ease-in-out;
   }
 .btn:hover{
@@ -69,7 +78,7 @@ transition: all 0.1s ease-in-out;
     color: var(--light-color);
 }
 .btn-outline-primary,.btn-outline-dark,.btn-outline-error,.btn-outline-info,.btn-outline-success,.btn-outline-warning,.btn-outline-secondary,.btn-outline-tertiary,.btn-outline-primary {
-    border: 1px solid;
+    border: .5px solid;
   
 }
 .btn-outline-primary {

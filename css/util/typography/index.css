@@ -44,6 +44,9 @@
   .text-md-bold{
     font-weight: 400;
   }
+  .text-bolder{
+    font-weight: bolder;
+  }
   .text-100{
     font-weight: 100;
   }
