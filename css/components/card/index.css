@@ -18,6 +18,15 @@ background-color: var(--light-color);
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
   }
+  .card-text-overlay
+  {position: absolute;
+    top:.5rem;left:.5rem;
+    font-size: .9rem;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    padding:.3rem .6rem;
+    border-radius: .3rem;
+  }
   .card:hover
   {
     transform: scale(1.02);

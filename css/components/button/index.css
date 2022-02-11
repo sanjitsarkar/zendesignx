@@ -21,12 +21,12 @@ font-size: .9rem;
 transition: all 0.1s ease-in-out;
   }
 .btn:hover{
-    box-shadow: var(--bx-sh-3);
+    box-shadow: var(--bx-sh-2);
     transform: scale(1.05);
     opacity:.9;
 }
 .btn:active{
-    box-shadow: var(--bx-sh-3);
+    box-shadow: var(--bx-sh-1);
     opacity:.7;
 
     transform: scale(.95);
